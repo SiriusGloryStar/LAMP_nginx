@@ -3,6 +3,8 @@
   hosts: all
   become: yes
 
+  roles:
+  - inatll_nginx    
   
   tasks:
   
